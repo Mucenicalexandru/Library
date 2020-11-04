@@ -63,6 +63,7 @@ public class Library {
                     throw new IllegalArgumentException("Already registered person");
                 }else{
                     registeredPerson.add(personToRegister);
+                    personToRegister.setRegistered(true);
                 }
             }
         }else{
